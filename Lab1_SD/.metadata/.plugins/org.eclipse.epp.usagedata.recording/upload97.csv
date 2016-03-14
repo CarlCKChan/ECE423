@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695023464
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421695026974
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421695034196
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.toggleOverwrite",1421695038736
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.toggleOverwrite",1421695040015
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695050498
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695053447
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421695053712
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695055428
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695056161
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695062073
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695063415
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421695063727
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695066831
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695068423
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1421695102646
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695103816
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695105064
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695105079
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421695112630
+error,log,,,"SOPC design not set.",1421695112692
+error,log,,,"CPU module not set.",1421695112692
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421695112692
+error,log,,,"CPU architecture type not set. ",1421695112692
+error,log,,,"CPU master group not set.",1421695112692

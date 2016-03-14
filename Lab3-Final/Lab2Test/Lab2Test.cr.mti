@@ -1,0 +1,40 @@
+N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/1d_idct.vhd {1 {vcom -work work -2002 -explicit N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/1d_idct.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity idct_1d
+-- Compiling architecture a_idct_1d of idct_1d
+
+} {} {}} N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/interface.vhd {1 {vcom -work work -2002 -explicit N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/interface.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity custominstruction
+-- Compiling architecture a_custominstruction of custominstruction
+
+} {} {}} N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd {1 {vcom -work work -2002 -explicit N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity custominstruction_2d
+-- Compiling architecture customarchitecture_2d of custominstruction_2d
+
+} {} {}} N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd {2 {vcom -work work -2002 -explicit N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity test_tb
+-- Compiling architecture behavior of test_tb
+** Warning: [9] N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd(53): (vcom-1013) Initial value of "test_mat" depends on value of signal "const_1240_bin".
+** Warning: [9] N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd(53): (vcom-1013) Initial value of "test_mat" depends on value of signal "const_0_bin".
+** Warning: [9] N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd(53): (vcom-1013) Initial value of "test_mat" depends on value of signal "const_n10_bin".
+** Warning: [9] N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd(53): (vcom-1013) Initial value of "test_mat" depends on value of signal "const_n24_bin".
+** Warning: [9] N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd(53): (vcom-1013) Initial value of "test_mat" depends on value of signal "const_n12_bin".
+** Warning: [9] N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd(53): (vcom-1013) Initial value of "test_mat" depends on value of signal "const_n14_bin".
+** Warning: [9] N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd(53): (vcom-1013) Initial value of "test_mat" depends on value of signal "const_n13_bin".
+
+} {} {}}

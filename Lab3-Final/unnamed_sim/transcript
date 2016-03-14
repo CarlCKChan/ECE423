@@ -1,0 +1,5 @@
+# Reading C:/Software/altera/90/modelsim_ase/tcl/vsim/pref.tcl 
+# vsim -gui unnamed_sim.mpf 
+# ** Error: (vsim-19) Failed to access library 'unnamed_sim' at "unnamed_sim".
+# No such file or directory. (errno = ENOENT)
+# Error loading design

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691887174
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691887174
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691887283
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691887283
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691887283
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691887283
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421691887283
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691887361
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691889592
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1421691895427
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.pde.runtime.LogView",1421691897455
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691897657
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691905286
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421691912087
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421691915301
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421691915348
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691923319
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691952482
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1421691952482
+error,log,,,"SOPC design not set.",1421691963340
+error,log,,,"CPU module not set.",1421691963340
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421691963340
+error,log,,,"CPU architecture type not set. ",1421691963340
+error,log,,,"CPU master group not set.",1421691963340
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691963340

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1421691716467
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.ui",1421691716514
+started,bundle,org.eclipse.mylyn.context.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.core",1421691716607
+started,bundle,org.eclipse.mylyn.context.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.ui",1421691716638
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.tasks.ui",1421691716748
+started,bundle,org.eclipse.mylyn.team.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.team.ui",1421691716779
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1421691716794
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1421691716888
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.monitor.ui",1421691716950
+started,bundle,com.altera.sbtgui.integration,10.1.0.153,"com.altera.sbtgui.integration",1421691717075
+started,bundle,com.altera.systemconsole,10.1.0.153,"com.altera.systemconsole",1421691717091
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1421691717871
+started,bundle,com.altera.sbtgui.core,10.1.0.153,"com.altera.sbtgui.core",1421691718978
+started,bundle,com.altera.utilities,10.1.0.153,"com.altera.utilities",1421691719119
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1421691719353
+started,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1421691719587
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1421691721396
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421691721755
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691721771
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691745399
+started,bundle,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui",1421691749345
+started,bundle,org.eclipse.cdt.debug.core,6.0.0.200909110608,"org.eclipse.cdt.debug.core",1421691750656
+started,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1421691750656
+error,log,,,"SOPC design not set.",1421691752887
+error,log,,,"CPU module not set.",1421691752887

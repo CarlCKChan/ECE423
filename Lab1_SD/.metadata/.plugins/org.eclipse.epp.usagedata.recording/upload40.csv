@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287696247
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287696356
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287696466
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287696575
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287696684
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287696684
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421287696684
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287696700
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287702799
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1421287704671
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1421287707651
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287707931
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287708415
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421287717434
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287725253
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287726361
+error,log,,,"SOPC design not set.",1421287726408
+error,log,,,"CPU module not set.",1421287726408
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287726408
+error,log,,,"CPU architecture type not set. ",1421287726408
+error,log,,,"CPU master group not set.",1421287726408
+error,log,,,"SOPC design not set.",1421287726564
+error,log,,,"CPU module not set.",1421287726564
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287726564
+error,log,,,"CPU architecture type not set. ",1421287726564

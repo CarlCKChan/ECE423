@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421717992842
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421717996119
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421718002315
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718025325
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718085228
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.findReplace",1421718085228
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718090564
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718100953
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718117583
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718131123
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1421718154211
+executed,command,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.edit.text.c.toggle.comment",1421718160170
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1421718188921
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1421718195067
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718195348
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718199108
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718203975
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718205114
+error,log,,,"SOPC design not set.",1421718205145
+error,log,,,"CPU module not set.",1421718205145
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421718205145
+error,log,,,"CPU architecture type not set. ",1421718205145
+error,log,,,"CPU master group not set.",1421718205145
+error,log,,,"SOPC design not set.",1421718205254
+error,log,,,"CPU module not set.",1421718205254

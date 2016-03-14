@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at altera_up_video_clipper_counters.v(71): object "WIDTH" differs only in case from object "width" in the same scope
+Info (10281): Verilog HDL Declaration information at altera_up_video_clipper_counters.v(72): object "HEIGHT" differs only in case from object "height" in the same scope

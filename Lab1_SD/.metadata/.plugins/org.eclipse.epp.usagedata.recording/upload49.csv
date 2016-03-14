@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287838363
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287838472
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287838472
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421287838472
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287838488
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287841939
+error,log,,,"SOPC design not set.",1421287846544
+error,log,,,"CPU module not set.",1421287846544
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287846544
+error,log,,,"CPU architecture type not set. ",1421287846544
+error,log,,,"CPU master group not set.",1421287846544
+error,log,,,"SOPC design not set.",1421287846544
+error,log,,,"CPU module not set.",1421287846544
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287846544
+error,log,,,"CPU architecture type not set. ",1421287846544
+error,log,,,"CPU master group not set.",1421287846544
+error,log,,,"Expected base address of system ID component is undefined.",1421287846544
+error,log,,,"SOPC design not set.",1421287846544
+error,log,,,"CPU module not set.",1421287846544
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287846544
+error,log,,,"CPU architecture type not set. ",1421287846544
+error,log,,,"CPU master group not set.",1421287846544
+error,log,,,"Expected base address of system ID component is undefined.",1421287846544
+error,log,,,"SOPC design not set.",1421287846544
+error,log,,,"CPU module not set.",1421287846544

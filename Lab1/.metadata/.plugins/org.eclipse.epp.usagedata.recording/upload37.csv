@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287674245
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287674354
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287674464
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287674573
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287674682
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287674791
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287674900
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675010
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675119
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675228
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675337
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675446
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675556
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675665
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675774
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675883
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287675992
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287676102
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287676211
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287676320
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287676429
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287676538
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287676648
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287676648
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421287676648

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692337351
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692337382
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692349628
+closed,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692349628
+closed,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692350190
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692408003
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692408050
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692416973
+closed,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692416973
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692420639
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692421762
+error,log,,,"SOPC design not set.",1421692421793
+error,log,,,"CPU module not set.",1421692421793
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421692421793
+error,log,,,"CPU architecture type not set. ",1421692421793
+error,log,,,"CPU master group not set.",1421692421793
+error,log,,,"SOPC design not set.",1421692421918
+error,log,,,"CPU module not set.",1421692421918
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421692421918
+error,log,,,"CPU architecture type not set. ",1421692421918
+error,log,,,"CPU master group not set.",1421692421918
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421692422027
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421692425304
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421692432327
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692595237

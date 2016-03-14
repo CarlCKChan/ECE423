@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421717723288
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421717723288
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421717723288
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421717723288
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717723303
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717730074
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421717730854
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717734239
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717742936
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717746633
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717747803
+error,log,,,"SOPC design not set.",1421717747866
+error,log,,,"CPU module not set.",1421717747866
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421717747866
+error,log,,,"CPU architecture type not set. ",1421717747866
+error,log,,,"CPU master group not set.",1421717747866
+error,log,,,"SOPC design not set.",1421717747991
+error,log,,,"CPU module not set.",1421717747991
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421717747991
+error,log,,,"CPU architecture type not set. ",1421717747991
+error,log,,,"CPU master group not set.",1421717747991
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421717748084
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421717751330
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421717757417
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717763033

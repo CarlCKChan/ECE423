@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <opcodeName visible="0" />
+   <connections preferredWidth="143" />
+   <irq preferredWidth="34" />
+   <export visible="0" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="290" />
+   <clocksource preferredWidth="289" />
+   <frequency preferredWidth="271" />
+  </columns>
+ </clocktable>
+ <window width="1340" height="953" x="233" y="406" />
+</preferences>

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421718379244
+error,log,,,"CPU architecture type not set. ",1421718379244
+error,log,,,"CPU master group not set.",1421718379244
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421718379353
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421718382630
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421718388701
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718391447
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718418616
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718421143
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718499142
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718500578
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718523494
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718528985
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421718655368
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718674088
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718683931
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718708532
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718715755
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421718804659
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718830820
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718840274
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718843378
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421718845047
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421718860319
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421718861583

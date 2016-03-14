@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287729138
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287729247
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287729356
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287729465
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287729574
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287729684
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287729793
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287729902
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730011
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730120
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730230
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730339
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730448
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730557
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730666
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730776
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730885
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287730885
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421287730885
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287730900
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287746488
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287749472
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287750598
+error,log,,,"SOPC design not set.",1421287750645
+error,log,,,"CPU module not set.",1421287750645

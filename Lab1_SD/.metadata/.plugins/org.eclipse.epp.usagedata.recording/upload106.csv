@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421695974948
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421695991454
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1421695992484
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421695993654
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421695995542
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421695996571
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421695997835
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1421695998209
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421696001953
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421696002764
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421696002780
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421696005964
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421696009022
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421696010129
+error,log,,,"SOPC design not set.",1421696010192
+error,log,,,"CPU module not set.",1421696010192
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421696010192
+error,log,,,"CPU architecture type not set. ",1421696010192
+error,log,,,"CPU master group not set.",1421696010192
+error,log,,,"SOPC design not set.",1421696010285
+error,log,,,"CPU module not set.",1421696010285
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421696010285
+error,log,,,"CPU architecture type not set. ",1421696010285
+error,log,,,"CPU master group not set.",1421696010285
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421696010395

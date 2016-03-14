@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421717298629
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421717333464
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421717334150
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421717368532
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421717417329
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1421717429575
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1421717431649
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717431930
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717435690
+started,bundle,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui",1421717438513
+started,bundle,org.eclipse.cdt.debug.core,6.0.0.200909110608,"org.eclipse.cdt.debug.core",1421717439543
+started,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1421717439543
+error,log,,,"SOPC design not set.",1421717440604
+error,log,,,"CPU module not set.",1421717440604
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421717440604
+error,log,,,"CPU architecture type not set. ",1421717440604
+error,log,,,"CPU master group not set.",1421717440604
+error,log,,,"SOPC design not set.",1421717440619
+error,log,,,"CPU module not set.",1421717440619
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421717440619
+error,log,,,"CPU architecture type not set. ",1421717440619
+error,log,,,"CPU master group not set.",1421717440619
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717440900
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421717442070
+error,log,,,"SOPC design not set.",1421717442101

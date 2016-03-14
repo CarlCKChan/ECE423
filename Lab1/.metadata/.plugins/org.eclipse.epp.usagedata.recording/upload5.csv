@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.export",1421283175268
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283178185
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283184800
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.import",1421283184800
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283187966
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283191274
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.export",1421283191289
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283206345
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283211805
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283215783
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283271961
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283272881
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283283023
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421283290964
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1421283292399
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1421283292415
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.exit",1421283292415
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1421283292430
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1421283292430
+stopped,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1421283292430
+stopped,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1421283292430
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.0.0.200909110608,"org.eclipse.cdt.dsf.gdb.ui",1421283292430
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.0.1.200909110608,"org.eclipse.cdt.dsf.ui",1421283292430
+stopped,bundle,com.altera.sbtgui.ui,10.1.0.153,"com.altera.sbtgui.ui",1421283292430
+stopped,bundle,com.altera.sbtgui.project,10.1.0.153,"com.altera.sbtgui.project",1421283292602

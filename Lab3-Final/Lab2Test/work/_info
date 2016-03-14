@@ -1,0 +1,129 @@
+m255
+K3
+13
+cModel Technology
+dN:\Year 4\ECE429\PD0\majority_intro
+Ecustominstruction
+Z0 !s101 -O0 -O0 -O0 -O0 -O0 -O0
+Z1 w1425063984
+Z2 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dN:\ECE423\Users\c73chan\ECE423\Lab2\Lab2Test
+Z5 8N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/interface.vhd
+Z6 FN:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/interface.vhd
+l0
+L30
+VdZ59h8czb;CillkFZi1iI2
+Z7 OV;C;6.4a;39
+Z8 !s101 -O0 -O0 -O0 -O0 -O0 -O0
+32
+Z9 o-work work -2002 -explicit -O0
+Z10 tExplicit 1
+!s100 K_0K3K9[699A470om6;`n1
+Aa_custominstruction
+R2
+R3
+DEx4 work 17 custominstruction 0 22 dZ59h8czb;CillkFZi1iI2
+l95
+L46
+VUODd:fFVPGGe9VRfBB:Sn3
+R7
+32
+Z11 Mx2 4 ieee 14 std_logic_1164
+Z12 Mx1 4 ieee 11 numeric_std
+R9
+R10
+!s100 LYgNE[Vzn?K>9oT<QUT5:1
+Ecustominstruction_2d
+R8
+Z13 w1425082789
+R2
+R3
+R4
+Z14 8N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+Z15 FN:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+l0
+L30
+V2g[L3KcXl5gVB_fGMJ]Ke1
+!s100 lTY8@^la_;nnTjbaEf_c]1
+R7
+R8
+32
+R9
+R10
+Acustomarchitecture_2d
+R2
+R3
+Z16 DEx4 work 20 custominstruction_2d 0 22 2g[L3KcXl5gVB_fGMJ]Ke1
+l104
+L46
+Z17 VG?Tkbo`nE55hIMOj80EJY2
+Z18 !s100 >Xhc4j[iKKdKP3^blGzng0
+R7
+32
+R11
+R12
+R9
+R10
+Eidct_1d
+R8
+Z19 w1424725889
+R2
+R3
+R4
+Z20 8N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/1d_idct.vhd
+Z21 FN:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/1d_idct.vhd
+l0
+L20
+VbcnB[QRl41UnG`7Dd3Qjl0
+R7
+R8
+32
+R9
+R10
+!s100 ofoXPcEE?TISW]I^LDCMY1
+Aa_idct_1d
+R2
+R3
+DEx4 work 7 idct_1d 0 22 bcnB[QRl41UnG`7Dd3Qjl0
+l131
+L48
+VkV]SZGcBlfbOBhI:QTYNm2
+R7
+32
+R11
+R12
+R9
+R10
+!s100 jZk@d`N0h;2k4D<zFj9MY0
+Etest_tb
+R8
+Z22 w1425084045
+R2
+R3
+R4
+Z23 8N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd
+Z24 FN:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/tb.vhd
+l0
+L7
+V3Az6bDokDUOI;5]CDF@Mo1
+R7
+R8
+32
+R9
+R10
+!s100 i@=^LYg;Rd6JR^[5`F9SK3
+Abehavior
+R2
+R3
+DEx4 work 7 test_tb 0 22 3Az6bDokDUOI;5]CDF@Mo1
+l86
+L10
+Vzh@;0RfIBZjEMJBJYZggQ3
+R7
+32
+R11
+R12
+R9
+R10
+!s100 C?RXR2g`2zAYUQcVBV0OQ0

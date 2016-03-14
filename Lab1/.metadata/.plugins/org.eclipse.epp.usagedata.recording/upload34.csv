@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU architecture type not set. ",1421286969320
+error,log,,,"CPU master group not set.",1421286969320
+error,log,,,"SOPC design not set.",1421286969413
+error,log,,,"CPU module not set.",1421286969413
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421286969413
+error,log,,,"CPU architecture type not set. ",1421286969413
+error,log,,,"CPU master group not set.",1421286969413
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421286969523
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421286972815
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421286978889
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286988670
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286995764
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421287003067
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421287055427
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421287060826
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287068002
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287069562
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287072653
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287073776
+error,log,,,"SOPC design not set.",1421287073839
+error,log,,,"CPU module not set.",1421287073839
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287073839
+error,log,,,"CPU architecture type not set. ",1421287073839
+error,log,,,"CPU master group not set.",1421287073839
+error,log,,,"SOPC design not set.",1421287073932

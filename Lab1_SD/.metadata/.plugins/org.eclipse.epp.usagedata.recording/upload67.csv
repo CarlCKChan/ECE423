@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691759033
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691759033
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421691759033
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691759080
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691766537
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1421691772387
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691773822
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691786124
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1421691788261
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691793066
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691796904
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1421691801677
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691801958
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691804158
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421691829773
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691833329
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691834484
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691834484
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691834593
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691834702
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691834811
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691834921
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691835030
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691835139
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691835248

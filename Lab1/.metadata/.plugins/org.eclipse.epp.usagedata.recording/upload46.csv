@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287754311
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287754311
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287754420
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287754420
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287754529
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287754529
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287754638
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287754638
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287754747
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287754747
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287754857
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287754857
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287754966
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287754966
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287755075
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287755075
+error,log,,,"Connected system ID hash not found on target at expected base address.",1421287755075
+error,log,,,"Connected system timestamp not found on target at expected base address.",1421287755075
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421287755075
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287755091
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287804454
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1421287816550
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287823975
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287829112
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287832856

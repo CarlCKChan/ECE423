@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691972341
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691972341
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691972341
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691972341
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691973870
+error,log,,,"No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691973870
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691974962
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691991451
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691992434
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691999578
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools",1421692003400
+started,bundle,org.eclipse.cdt.managedbuilder.ui,5.1.0.200909110608,"org.eclipse.cdt.managedbuilder.ui",1421692004087
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692005506
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.properties",1421692005506
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.pde.runtime.LogView",1421692005990
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692006208
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692022680
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692023335
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692038962
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692041474
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692042441
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692042660
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1421692042816
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1421692042816
+stopped,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1421692042816

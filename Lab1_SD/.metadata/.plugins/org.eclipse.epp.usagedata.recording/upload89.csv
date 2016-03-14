@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.info,sysinfo,,,"mixed mode",1421692070661
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1421692070661
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1421692070661
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1421692070661
+java.vm.specification.version,sysinfo,,,"1.0",1421692070661
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1421692070661
+java.vm.version,sysinfo,,,"14.0-b16",1421692070661
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1421692072361
+started,bundle,com.altera.sbtgui.core,10.1.0.153,"com.altera.sbtgui.core",1421692073672
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1421692073719
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692076261
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools",1421692078835
+started,bundle,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui",1421692078867
+started,bundle,org.eclipse.cdt.managedbuilder.ui,5.1.0.200909110608,"org.eclipse.cdt.managedbuilder.ui",1421692079428
+started,bundle,org.eclipse.core.databinding,1.2.0.M20090819-0800,"org.eclipse.core.databinding",1421692080661
+started,bundle,org.eclipse.core.databinding.property,1.2.0.M20090819-0800,"org.eclipse.core.databinding.property",1421692080661
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421692081066
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692098959
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.properties",1421692098975
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692099240
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692101143
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692105043
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1421692106244
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692109442
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.properties",1421692109442

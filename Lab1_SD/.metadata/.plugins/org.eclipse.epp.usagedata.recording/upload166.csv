@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421798225729
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421798226884
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1421798285949
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1421798301114
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1421798302362
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421798302658
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421798303360
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421798303688
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421798308643
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421798308651
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1421798310838
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1421798312678
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1421798313599
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421798313880
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421798314691
+started,bundle,org.eclipse.cdt.debug.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.ui",1421798318653
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421798321071
+error,log,,,"SOPC design not set.",1421798322429
+error,log,,,"CPU module not set.",1421798322429
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421798322429
+error,log,,,"CPU architecture type not set. ",1421798322429
+error,log,,,"CPU master group not set.",1421798322429
+error,log,,,"SOPC design not set.",1421798322539
+error,log,,,"CPU module not set.",1421798322539
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421798322539

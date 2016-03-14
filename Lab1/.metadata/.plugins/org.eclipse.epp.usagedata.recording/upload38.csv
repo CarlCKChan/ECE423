@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287676694
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287682498
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287691099
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287692160
+error,log,,,"SOPC design not set.",1421287692222
+error,log,,,"CPU module not set.",1421287692222
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287692222
+error,log,,,"CPU architecture type not set. ",1421287692222
+error,log,,,"CPU master group not set.",1421287692222
+error,log,,,"SOPC design not set.",1421287692347
+error,log,,,"CPU module not set.",1421287692347
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287692347
+error,log,,,"CPU architecture type not set. ",1421287692347
+error,log,,,"CPU master group not set.",1421287692347
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287692347
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287692425
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287692534
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287692644
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287692753
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287692862
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287692971
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287693080
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287693190
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287693299
+error,log,,,"System timestamp mismatch - connected: ""1421287343"", expected: ""1421283522"".",1421287693408

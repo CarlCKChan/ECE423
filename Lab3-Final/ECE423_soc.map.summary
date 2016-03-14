@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Mar 28 14:17:48 2015
+Quartus II 64-Bit Version : 10.1 Build 197 01/19/2011 SP 1 SJ Full Version
+Revision Name : ECE423_soc
+Top-level Entity Name : ECE423_soc
+Family : Cyclone II
+Total logic elements : 19,196
+    Total combinational functions : 15,338
+    Dedicated logic registers : 8,398
+Total registers : 8398
+Total pins : 124
+Total virtual pins : 0
+Total memory bits : 191,488
+Embedded Multiplier 9-bit elements : 32
+Total PLLs : 1

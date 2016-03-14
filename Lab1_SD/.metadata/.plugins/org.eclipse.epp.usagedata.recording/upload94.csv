@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692596079
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692596110
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692703266
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.findReplace",1421692703282
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692708430
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692712907
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421692824665
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.pde.runtime.LogView",1421692824805
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421692824821
+closed,view,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.pde.runtime.LogView",1421692824836
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421693083248
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421694635950
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421694640006
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421694641145
+error,log,,,"SOPC design not set.",1421694641192
+error,log,,,"CPU module not set.",1421694641192
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421694641192
+error,log,,,"CPU architecture type not set. ",1421694641192
+error,log,,,"CPU master group not set.",1421694641192
+error,log,,,"SOPC design not set.",1421694641285
+error,log,,,"CPU module not set.",1421694641285
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421694641285
+error,log,,,"CPU architecture type not set. ",1421694641285
+error,log,,,"CPU master group not set.",1421694641285
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1421694641395

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421698647240
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421698680220
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421698681078
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421698727619
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421698728539
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421698802834
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421698805657
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1421698916272
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421698935181
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421698946440
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421698946534
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421698947751
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421698947907
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1421698948094
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1421698948094
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.debug.core"".",1421698948203
+error,log,,,"An exception occurred while dispatching debug events.",1421698948203
+stopped,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1421698949105
+stopped,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1421698949105
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.0.0.200909110608,"org.eclipse.cdt.dsf.gdb.ui",1421698949105
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.0.1.200909110608,"org.eclipse.cdt.dsf.ui",1421698949105
+stopped,bundle,com.altera.sbtgui.ui,10.1.0.153,"com.altera.sbtgui.ui",1421698949105
+stopped,bundle,com.altera.sbtgui.project,10.1.0.153,"com.altera.sbtgui.project",1421698949105
+stopped,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1421698949105
+stopped,bundle,org.eclipse.cdt.debug.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.ui",1421698949105

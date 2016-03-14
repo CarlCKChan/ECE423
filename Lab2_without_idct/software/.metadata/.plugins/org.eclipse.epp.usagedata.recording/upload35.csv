@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1423529514733
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.text.contentAssist.proposals",1423529526190
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1423529529717
+error,log,,,"An internal error occurred during: ""Open Declaration"".",1423529531177
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423529531257
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423529532409
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1423529533829
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1423529539829
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1423529540638
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1423529543528
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1423529543778
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1423529544248
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423529547438
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423529548318
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423529552212
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423529553432
+error,log,,,"SOPC design not set.",1423529553472
+error,log,,,"CPU module not set.",1423529553472
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1423529553472
+error,log,,,"CPU architecture type not set. ",1423529553472
+error,log,,,"CPU master group not set.",1423529553472
+error,log,,,"SOPC design not set.",1423529553592
+error,log,,,"CPU module not set.",1423529553592
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1423529553592
+error,log,,,"CPU architecture type not set. ",1423529553592

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838087
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838196
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838306
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838415
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838524
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838633
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838742
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838852
+error,log,,,"No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.",1421691838852
+error,log,,,"Launch terminated because launch connectivity invalid. Check launch configuration settings.",1421691838852
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691838852
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.ui.views.log",1421691847900
+opened,view,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.pde.runtime.LogView",1421691848040
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691848056
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.pde.runtime.LogView",1421691848071
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691850240
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691855060
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691856183
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421691856339
+started,bundle,org.eclipse.cdt.debug.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.ui",1421691857338
+error,log,,,"sun.awt.X11.XlibWrapper",1421691860442
+error,log,,,"SOPC design not set.",1421691861690
+error,log,,,"CPU module not set.",1421691861690
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421691861690
+error,log,,,"CPU architecture type not set. ",1421691861690

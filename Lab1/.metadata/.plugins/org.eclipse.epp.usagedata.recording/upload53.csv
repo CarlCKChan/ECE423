@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU module not set.",1421287857324
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287857324
+error,log,,,"CPU architecture type not set. ",1421287857324
+error,log,,,"CPU master group not set.",1421287857324
+error,log,,,"SOPC design not set.",1421287857324
+error,log,,,"CPU module not set.",1421287857324
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287857324
+error,log,,,"CPU architecture type not set. ",1421287857324
+error,log,,,"CPU master group not set.",1421287857324
+error,log,,,"SOPC design not set.",1421287857324
+error,log,,,"CPU module not set.",1421287857324
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287857324
+error,log,,,"CPU architecture type not set. ",1421287857324
+error,log,,,"CPU master group not set.",1421287857324
+error,log,,,"SOPC design not set.",1421287857355
+error,log,,,"CPU module not set.",1421287857355
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1421287857355
+error,log,,,"CPU architecture type not set. ",1421287857355
+error,log,,,"CPU master group not set.",1421287857355
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287859726
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1421287859742
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287861005
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421287862113
+error,log,,,"SOPC design not set.",1421287862175
+error,log,,,"CPU module not set.",1421287862175

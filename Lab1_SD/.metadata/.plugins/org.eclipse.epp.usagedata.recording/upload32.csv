@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286755062
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286755155
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421286819841
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421286837815
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286842713
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.findReplace",1421286842744
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286845951
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421286858541
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421286858588
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286859399
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.findReplace",1421286859415
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286862847
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421286864734
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421286865920
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1421286868229
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421286876436
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1421286895205
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1421286898388
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1421286903678
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildAll",1421286906736
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286907017
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286910761
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286914928
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1421286916129
+error,log,,,"SOPC design not set.",1421286916160

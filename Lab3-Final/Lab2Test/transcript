@@ -1,0 +1,325 @@
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 0 to 7.
+#    Time: 0 ps  Iteration: 0  Process: /test_tb/uut/line__142 File: N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+# Fatal error in Architecture customarchitecture_2d at N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd line 142
+# 
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+quit -sim
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 0 to 7.
+#    Time: 0 ps  Iteration: 0  Process: /test_tb/uut/line__130 File: N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+# Fatal error in Architecture customarchitecture_2d at N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd line 130
+# 
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 0 to 7.
+#    Time: 0 ps  Iteration: 0  Process: /test_tb/uut/line__128 File: N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+# Fatal error in Architecture customarchitecture_2d at N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd line 128
+# 
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 0 to 7.
+#    Time: 0 ps  Iteration: 0  Process: /test_tb/uut/line__128 File: N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+# Fatal error in Architecture customarchitecture_2d at N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd line 128
+# 
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 0 to 7.
+#    Time: 0 ps  Iteration: 0  Process: /test_tb/uut/line__132 File: N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+# Fatal error in Architecture customarchitecture_2d at N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd line 132
+# 
+quit -sim
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+# Compile of 1d_idct.vhd was successful.
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Fatal: (vsim-3734) Index value -2147483648 is out of range 0 to 7.
+#    Time: 0 ps  Iteration: 0  Process: /test_tb/uut/line__140 File: N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd
+# Fatal error in Architecture customarchitecture_2d at N:/ECE423/Users/c73chan/ECE423/Lab2/Lab2Test/2d_interface.vhd line 140
+# 
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd failed with 1 errors.
+# 4 compiles, 1 failed with 1 error. 
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+run 150 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+restart -f
+add wave \
+{sim:/test_tb/uut/column_row } \
+{sim:/test_tb/uut/column_row_int } 
+run 150 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+run 150 ns
+restart -f
+add wave sim:/test_tb/uut/*
+run 200 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+run 1000 ns
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+add wave sim:/test_tb/*
+run 1000 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+# Load canceled
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+add wave sim:/test_tb/*
+run 700 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+run 500 ns
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+add wave \
+{sim:/test_tb/res1 } \
+{sim:/test_tb/res2 } \
+{sim:/test_tb/clk } 
+run 700 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# Compile of 1d_idct.vhd was successful.
+# Compile of interface.vhd was successful.
+# Compile of tb.vhd was successful with warnings.
+# Compile of 2d_interface.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.test_tb
+# vsim work.test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_tb(behavior)
+# Loading work.custominstruction_2d(customarchitecture_2d)
+# Loading work.idct_1d(a_idct_1d)
+add wave \
+{sim:/test_tb/res1 } \
+{sim:/test_tb/res2 } \
+{sim:/test_tb/clk } 
+run 700 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /test_tb/uut

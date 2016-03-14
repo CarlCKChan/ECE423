@@ -1,0 +1,281 @@
+//
+//  mjpeg423_decoder.c
+//  mjpeg423app
+//
+//  Created by Rodolfo Pellizzoni on 12/24/13.
+//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
+//
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "../common/mjpeg423_types.h"
+#include "mjpeg423_decoder.h"
+#include "../common/util.h"
+#include "../sd_card.h"
+#include "../board_diag.h"
+
+
+#define HEADER_OFFSET (5*sizeof(uint32_t))
+//main decoder function
+
+typedef struct frame_struct {
+uint32_t frame_size;
+uint32_t frame_type;
+uint32_t Ysize;
+uint32_t Cbsize;
+uint32_t* Ybitstream;
+} frame;
+
+int last_tested;
+int frame_index;
+int current_frame;
+
+int mjpeg423_decode(const char* filename_in)
+{
+
+	alt_u32 frame_counter;
+	uint8_t* filebuffer;
+    //header and payload info
+    uint32_t num_frames, w_size, h_size, num_iframes, payload_size;
+    uint32_t Ysize, Cbsize, frame_size, frame_type;
+    int x,y;
+
+    alt_up_pixel_buffer_dma_dev * pixel_buf_dev;
+    //file streams
+    FILE* file_in;
+
+    pixel_buf_dev = alt_up_pixel_buffer_dma_open_dev(VIDEO_PIXEL_BUFFER_DMA_0_NAME);
+    if ( pixel_buf_dev == NULL){
+    	error_and_exit ("Error: could not open pixel buffer device \n");
+    }
+    alt_timestamp_start();
+    short int file_handle = alt_up_sd_card_fopen(filename_in, 0);
+	if(file_handle == -1){
+		error_and_exit("Cannot find file\n");
+	}
+
+	//create list of sectors
+	if(!sd_card_create_sectors_list(file_handle)){
+		error_and_exit("Cannot create sectors list\n");
+	}
+
+	//create filebuffer to hold entire file
+	printf("File size: %d\n",sd_card_file_size(file_handle));
+
+	int sectors_num = ceil(sd_card_file_size(file_handle)/512.0);
+	if((filebuffer = malloc(5*512)) == NULL){
+		error_and_exit("Cannot allocate filebuffer\n");
+	}
+
+	//read all sectors into the filebuffer
+	uint8_t* pos = filebuffer;
+	int sd_bytes_read = 0;
+	sd_seek(0);
+    frame_counter = alt_timestamp();
+	DEBUG_PRINT_ARG("TIMER READ SD CARD: %u\n", frame_counter);
+	HORRRIBLE_LABEL:
+	sd_bytes_read = sd_read(pos, HEADER_OFFSET);
+    //read header
+    memcpy(&num_frames, filebuffer, sizeof(uint32_t));
+    memcpy(&w_size, filebuffer+4, sizeof(uint32_t));
+    memcpy(&h_size, filebuffer+8, sizeof(uint32_t));
+    memcpy(&num_iframes, filebuffer+12, sizeof(uint32_t));
+    memcpy(&payload_size, filebuffer+16, sizeof(uint32_t));
+    
+    DEBUG_PRINT_ARG("num_frames: %u\n", num_frames);
+    DEBUG_PRINT_ARG("payload_size: %u\n", payload_size)
+
+    int hCb_size = h_size/8;           //number of chrominance blocks
+    int wCb_size = w_size/8;
+    int hYb_size = h_size/8;           //number of luminance blocks. Same as chrominance in the sample app
+    int wYb_size = w_size/8;
+    
+    //trailer structure
+    iframe_trailer_t* trailer = malloc(sizeof(iframe_trailer_t)*num_iframes);
+    
+    //main data structures. See lab manual for explanation
+    //rgb_pixel_t* rgbblock;
+    //if((rgbblock = malloc(w_size*h_size*sizeof(rgb_pixel_t)))==NULL) error_and_exit("cannot allocate rgbblock");
+    color_block_t* Yblock;
+    if((Yblock = malloc(hYb_size * wYb_size * 64))==NULL) error_and_exit("cannot allocate Yblock");
+    color_block_t* Cbblock;
+    if((Cbblock = malloc(hCb_size * wCb_size * 64))==NULL) error_and_exit("cannot allocate Cbblock");
+    color_block_t* Crblock;
+    if((Crblock = malloc(hCb_size * wCb_size * 64))==NULL) error_and_exit("cannot allocate Crblock");;
+    dct_block_t* YDCAC;
+    if((YDCAC = malloc(hYb_size * wYb_size * 64 * sizeof(DCTELEM)))==NULL) error_and_exit("cannot allocate YDCAC");
+    dct_block_t* CbDCAC;
+    if((CbDCAC = malloc(hCb_size * wCb_size * 64 * sizeof(DCTELEM)))==NULL) error_and_exit("cannot allocate CbDCAC");
+    dct_block_t* CrDCAC;
+    if((CrDCAC = malloc(hCb_size * wCb_size * 64 * sizeof(DCTELEM)))==NULL) error_and_exit("cannot allocate CrDCAC");
+    //Ybitstream is assigned a size sufficient to hold all bistreams
+    //the bitstream is then read from the file into Ybitstream
+    //the remaining pointers simply point to the beginning of the Cb and Cr streams within Ybitstream
+    uint8_t* Ybitstream;
+    if((Ybitstream = malloc(hYb_size * wYb_size * 64 * sizeof(DCTELEM) + 2 * hCb_size * wCb_size * 64 * sizeof(DCTELEM)))==NULL) error_and_exit("cannot allocate bitstream");
+    uint8_t* Cbbitstream;
+    uint8_t* Crbitstream;
+    
+    //read trailer. Note: the trailer information is not used in the sample decoder app
+    //set file to beginning of trailer
+    //if(fseek(file_in, 5 * sizeof(uint32_t) + payload_size, SEEK_SET) != 0) error_and_exit("cannot seek into file");
+    sd_seek(HEADER_OFFSET + payload_size);
+    int trailer_counter = 0;
+    for(int count = 0; count < num_iframes; count++){
+    	sd_bytes_read = sd_read(&(trailer[count].frame_index), sizeof(uint32_t));
+    	sd_bytes_read = sd_read(&(trailer[count].frame_position), sizeof(uint32_t));
+        DEBUG_PRINT_ARG("I frame index %u, ", trailer[count].frame_index)
+        DEBUG_PRINT_ARG("position %u\n", trailer[count].frame_position)
+    }
+
+  	 short DCAC[8][8] = {
+  			 /*{ 1240, 0, -10, 0, 0, 0, 0, 0 },
+  			 { -24, -12, 0, 0, 0, 0, 0, 0 },
+  			 { -14, -13, 0, 0, 0, 0, 0, 0 },
+  			 { 0, 0, 0, 0, 0, 0, 0, 0 },
+  			 { 0, 0, 0, 0, 0, 0, 0, 0 },
+  			 { 0, 0, 0, 0, 0, 0, 0, 0 },
+  			 { 0, 0, 0, 0, 0, 0, 0, 0 },
+  			 { 0, 0, 0, 0, 0, 0, 0, 0 }};*/
+  						 {100, 0, 0, 0, 0, 0, 0, 0},
+  						 {0, 100, 0, 0, 0, 0, 0, 0},
+  						 {0, 0, 100, 0, 0, 0, 0, 0},
+  						 {0, 0, 0, 100, 0, 0, 0, 0},
+  						 {0, 0, 0, 0, 100, 0, 0, 0},
+  						 {0, 0, 0, 0, 0, 100, 0, 0},
+  						 {0, 0, 0, 0, 0, 0, 100, 0},
+  						 {0, 0, 0, 0, 0, 0, 0, 100}
+  				 };
+  	 idct(DCAC, Yblock[0]);
+
+
+    //read and decode frames
+    for(int frame_byte_counter = HEADER_OFFSET; frame_byte_counter < payload_size;){
+				if(getNextFile){
+    				break;
+    	    	}
+    	    	if(fastForward){
+    	    		fastForward = 0;
+    	    		int index = 0;
+    	    		for(int i=0; i< num_iframes; i++){
+    	    			if( trailer[i].frame_index >= (current_frame + 226) ) {
+    	    				index = i;
+    	    				break;
+    	    			}
+    				}
+    				frame_byte_counter = trailer[index].frame_position;
+    				current_frame = trailer[index].frame_index;
+    				DEBUG_PRINT_ARG("\nFrame: #%u\n",current_frame)
+    			}
+    			if (backward) {
+    				unsigned int magic = 0;
+    				backward = 0;
+    				int index = num_iframes - 1;
+    				if(current_frame < 240){
+    					index = 0;
+    				}else{
+    				for (int i = num_iframes - 1; i >= 0; i--) {
+    					if (trailer[i].frame_index <= (current_frame - 226)) {
+    						index = i;
+    						break;
+    					}
+    				}
+    				}
+
+    				frame_byte_counter = trailer[index].frame_position;
+    				current_frame = trailer[index].frame_index;
+    				DEBUG_PRINT_ARG("\nFrame: #%u\n",current_frame)
+    			}
+    	if(!playing){
+    		continue;
+    	}
+
+
+        //DEBUG_PRINT_ARG("\nFrame #%u\n",)
+        //read frame payload
+        alt_timestamp_start();
+        sd_seek(frame_byte_counter);
+        sd_bytes_read = sd_read(&(frame_size), sizeof(uint32_t));
+		//memcpy(&(frame_size), filebuffer+frame_byte_counter, sizeof(uint32_t));
+        frame_byte_counter+=sizeof(uint32_t);
+        DEBUG_PRINT_ARG("Frame_size: %u\n",frame_size)
+        //sd_seek(frame_byte_counter);
+        sd_bytes_read = sd_read(&(frame_type), sizeof(uint32_t));
+        DEBUG_PRINT_ARG("Frame_type: %u\n",frame_type)
+		//memcpy(&(frame_type), filebuffer+frame_byte_counter, sizeof(uint32_t));
+
+        frame_byte_counter+=sizeof(uint32_t);
+        //sd_seek(frame_byte_counter);
+        sd_bytes_read = sd_read(&(Ysize), sizeof(uint32_t));
+		//memcpy(&(Ysize), filebuffer+frame_byte_counter, sizeof(uint32_t));
+		frame_byte_counter+=sizeof(uint32_t);
+		//sd_seek(frame_byte_counter);
+		sd_bytes_read = sd_read(&(Cbsize), sizeof(uint32_t));
+		//memcpy(&(Cbsize), filebuffer+frame_byte_counter, sizeof(uint32_t));
+		frame_byte_counter+=sizeof(uint32_t);
+		sd_bytes_read = sd_read(Ybitstream,  frame_size - 4 * sizeof(uint32_t));
+		//memcpy(Ybitstream, filebuffer+frame_byte_counter,);
+		frame_byte_counter += (frame_size - 4 * sizeof(uint32_t));
+
+        //set the Cb and Cr bitstreams to point to the right location
+        Cbbitstream = Ybitstream + Ysize;
+        Crbitstream = Cbbitstream + Cbsize;
+
+        //lossless decoding
+        alt_timestamp_start();
+        lossless_decode(hYb_size*wYb_size, Ybitstream, YDCAC, Yquant, frame_type);
+        frame_counter = alt_timestamp();
+        DEBUG_PRINT_ARG("TIMER DECODE Y-stream: %u\n", frame_counter);
+        alt_timestamp_start();
+        lossless_decode(hCb_size*wCb_size, Cbbitstream, CbDCAC, Cquant, frame_type);
+        frame_counter = alt_timestamp();
+        DEBUG_PRINT_ARG("TIMER DECODE Cb-stream: %u\n", frame_counter);
+        alt_timestamp_start();
+        lossless_decode(hCb_size*wCb_size, Crbitstream, CrDCAC, Cquant, frame_type);
+        frame_counter = alt_timestamp();
+        DEBUG_PRINT_ARG("TIMER DECODE Cr-stream: %u\n", frame_counter);
+
+        alt_timestamp_start();
+        //fdct
+        for(int b = 0; b < hYb_size*wYb_size; b++) idct(YDCAC[b], Yblock[b]);
+        for(int b = 0; b < hCb_size*wCb_size; b++) idct(CbDCAC[b], Cbblock[b]);
+        for(int b = 0; b < hCb_size*wCb_size; b++) idct(CrDCAC[b], Crblock[b]);
+        frame_counter = alt_timestamp();
+        DEBUG_PRINT_ARG("TIMER IDCT: %u\n", frame_counter);
+        //ybcbr to rgb conversion
+        while(alt_up_pixel_buffer_dma_check_swap_buffers_status(pixel_buf_dev));
+        alt_timestamp_start();
+        for(int b = 0; b < hCb_size*wCb_size; b++) 
+            ycbcr_to_rgb(b/wCb_size*8, b%wCb_size*8, w_size, Yblock[b], Cbblock[b], Crblock[b], (rgb_pixel_t*)(pixel_buf_dev->back_buffer_start_address));
+
+        frame_counter = alt_timestamp();
+        DEBUG_PRINT_ARG("TIMER YCBCR->RGB/DRAW FRAME: %u\n", frame_counter);
+        
+		alt_up_pixel_buffer_dma_swap_buffers(pixel_buf_dev);
+
+		current_frame++;
+		//DEBUG_PRINT_ARG("current frame: %u\n",current_frame)
+    } //end frame iteration
+    
+    
+    //close down
+    alt_up_sd_card_fclose(file_handle);
+    free(Yblock);
+    free(Cbblock);
+    free(Crblock);
+    free(YDCAC);
+    free(CbDCAC);
+    free(CrDCAC);
+    free(Ybitstream);
+    free(filebuffer);
+    if(getNextFile){
+        DEBUG_PRINT("\nSwitch to next file.\n\n\n")
+    	getNextFile = 0;
+    	return -1;
+    }else{
+        DEBUG_PRINT("\nDecoder done.\n\n\n")
+        		playing = 0;
+        return 0;
+    }
+}

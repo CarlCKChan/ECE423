@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Mar 28 14:18:55 2015
+Quartus II 64-Bit Version : 10.1 Build 197 01/19/2011 SP 1 SJ Full Version
+Revision Name : ECE423_soc
+Top-level Entity Name : ECE423_soc
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total logic elements : 17,195 / 33,216 ( 52 % )
+    Total combinational functions : 15,347 / 33,216 ( 46 % )
+    Dedicated logic registers : 8,281 / 33,216 ( 25 % )
+Total registers : 8333
+Total pins : 124 / 475 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 191,488 / 483,840 ( 40 % )
+Embedded Multiplier 9-bit elements : 32 / 70 ( 46 % )
+Total PLLs : 1 / 4 ( 25 % )

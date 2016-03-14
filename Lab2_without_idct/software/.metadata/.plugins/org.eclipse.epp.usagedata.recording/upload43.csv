@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1423530427290
+executed,command,,,"AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction",1423530445530
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423530446905
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423530448861
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423530448878
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423530452457
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423530454427
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423530455820
+executed,command,,,"AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction",1423530457057
+executed,command,,,"AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction",1423530458064
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1423530458567
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423530459908
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1423530460348
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1423530460390
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1423530460842
+executed,command,,,"AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction",1423530460865
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1423530461375
+executed,command,,,"AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction",1423530461449
+error,log,,,"SOPC design not set.",1423530461500
+error,log,,,"CPU module not set.",1423530461503
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1423530461506
+error,log,,,"CPU architecture type not set. ",1423530461508
+error,log,,,"CPU master group not set.",1423530461508
+error,log,,,"SOPC design not set.",1423530461603
+error,log,,,"CPU module not set.",1423530461604
